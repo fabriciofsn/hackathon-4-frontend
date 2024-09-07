@@ -12,6 +12,7 @@ import {
 } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import ifs from '../../assets/ifs.png';
+const userType = localStorage.getItem('userType');
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
