@@ -1,0 +1,14 @@
+/* src/global.css */
+body {
+  @apply bg-white text-black;
+}
+
+.dark body {
+  @apply bg-gray-900 text-white;
+}
+/* src/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Seus estilos personalizados */
