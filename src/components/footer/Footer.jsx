@@ -7,7 +7,7 @@ const Footer = () => {
     setAno(ano);
   }, []);
   return (
-    <footer className="bg-gray-800 text-white py-4 fixed bottom-0 w-full shadow-md">
+    <footer className="bg-gray-800 text-white py-4 bottom-0 w-full shadow-md">
       <div className="container mx-auto text-center">
         <p className="text-sm">
           &copy; {ano} Instituição Acadêmica. Todos os direitos reservados.

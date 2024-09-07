@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
+import Grafico from '../../components/grafico/grafico';
 
 const Dashboard = () => {
   const nome = localStorage.getItem('nome');
@@ -31,7 +32,7 @@ const Dashboard = () => {
             href="#"
             className="text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
           >
-            Acessar Relatórios
+            Relatórios
           </a>
         </div>
         <div className="flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-500 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
@@ -59,6 +60,7 @@ const Dashboard = () => {
           </ul>
         </div>
       </main>
+      <Grafico />
       <Footer />
     </div>
   );
